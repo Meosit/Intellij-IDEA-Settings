@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="by.triumgroup.recourse.entity.dto.ErrorMessage.ErrorMessage(title,message)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
