@@ -5,35 +5,34 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="llog" value="private static final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger($CLASS_NAME$.class);&#10;" shortcut="ENTER" description="Declares logger variable" toReformat="false" toShortenFQNames="true">
+  <template name="llog" value="private static final org.apache.log4j.Logger LOG = org.apache.log4j.Logger.getLogger($CLASS_NAME$.class);&#10;" shortcut="ENTER" description="Declares logger variable" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="klog" value="companion object {&#10;    private val logger = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$::class.java)!!&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="klog" value="companion object {&#10;    val LOG = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$::class.java)!!&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="kotlinClassName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
-  <template name="slog" value="private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="slog" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="kex" value="class $CLASS_NAME$(&#10;    message: String? = null,&#10;    cause: Throwable? = null&#10;) : RuntimeException(message, cause)" description="Kotlin runtime exception declaration" toReformat="true" toShortenFQNames="true">
+  <template name="kex" value="class $CLASS_NAME$(&#10;    message: String = null,&#10;    cause: Throwable = null&#10;) : RuntimeException" description="Kotlin runtime exception declaration" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="" defaultValue="MyException" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="jbean" value="@org.springframework.context.annotation.Bean&#10;public $CLASS_NAME$ $METHOD_NAME$() {&#10;    return new $IMPL_NAME$($PARAMETERS$);&#10;}" description="Java config bean declaration" toReformat="true" toShortenFQNames="true">
+  <template name="jbean" value="@org.springframework.context.annotation.Bean&#10;public $CLASS_NAME$ $METHOD_NAME$() {&#10;    return new $IMPL_NAME$();&#10;}" description="Java config bean declaration" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="complete()" defaultValue="MyBeanClass" alwaysStopAt="true" />
     <variable name="METHOD_NAME" expression="camelCase(CLASS_NAME)" defaultValue="" alwaysStopAt="false" />
     <variable name="IMPL_NAME" expression="concat(CLASS_NAME, Impl)" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
@@ -43,6 +42,12 @@
     <variable name="METHOD_NAME" expression="camelCase(CLASS_NAME)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="utest" value="@org.junit.Test&#10;public void $TEST_NAME$() throws Exception {&#10;    $END$&#10;}" description="Creates JUnit test method" toReformat="false" toShortenFQNames="true">
+    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
