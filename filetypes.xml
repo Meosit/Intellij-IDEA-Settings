@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="aggregated_corrected" type="PLAIN_TEXT" />
       <mapping ext="hql" type="SQL" />
     </extensionMap>
   </component>
