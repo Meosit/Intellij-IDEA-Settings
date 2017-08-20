@@ -5,6 +5,5 @@
         <added pattern="by.triumgroup.recourse.entity.dto.ErrorMessage.ErrorMessage(title,message)" />
       </blacklist>
     </blacklists>
-    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
   </component>
 </application>
