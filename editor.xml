@@ -14,7 +14,7 @@
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="ef4e44" />
     </pattern>
-    <pattern useCustomColors="true" pattern="\bnotice\b.*">
+    <pattern icon="question" useCustomColors="true" pattern="\bnotice\b.*">
       <option name="FOREGROUND" value="e8933b" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="ffb75a" />
