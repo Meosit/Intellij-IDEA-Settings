@@ -1,68 +1,68 @@
 <application>
   <component name="libraryTable">
-    <library name="angular" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.4.4_angular.js" />
-        </sourceFilesUrls>
-      </properties>
+    <library name="angular">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.4.4_angular.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="angular-resource" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.4.4_angular-resource.js" />
-        </sourceFilesUrls>
-      </properties>
+    <library name="angular-resource">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.4.4_angular-resource.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="bootbox" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootbox.js_4.4.0_bootbox.js" />
-        </sourceFilesUrls>
-      </properties>
+    <library name="bootbox">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootbox.js_4.4.0_bootbox.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="bootstrap" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.7_js_bootstrap.js" />
-        </sourceFilesUrls>
-      </properties>
+    <library name="bootstrap">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.7_js_bootstrap.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="jquery" type="javaScript">
-      <properties>
-        <option name="frameworkName" value="jQuery" />
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.1.1_jquery.js" />
-        </sourceFilesUrls>
-      </properties>
+    <library name="jquery">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.1.1_jquery.js" />
       </CLASSES>
-      <DOCUMENTATION>
-        <root url="http://api.jquery.com" />
-      </DOCUMENTATION>
       <JAVADOC />
       <SOURCES />
+    </library>
+    <library name="Python 2.7.14 (D:\Programs\Python\Python27\python.exe) interpreter library">
+      <CLASSES>
+        <root url="file://D:/Programs/Python/Python27/DLLs" />
+        <root url="file://D:/Programs/Python/Python27/Lib" />
+        <root url="file://D:/Programs/Python/Python27/Lib/lib-tk" />
+        <root url="file://D:/Programs/Python/Python27" />
+        <root url="file://D:/Programs/Python/Python27/Lib/site-packages" />
+        <root url="file://$USER_HOME$/.IdeaIC2017.2/system/python_stubs/495234402" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://D:/Programs/Python/Python27/DLLs" />
+        <root url="file://D:/Programs/Python/Python27/Lib" />
+        <root url="file://D:/Programs/Python/Python27/Lib/lib-tk" />
+        <root url="file://D:/Programs/Python/Python27" />
+        <root url="file://D:/Programs/Python/Python27/Lib/site-packages" />
+        <root url="file://$USER_HOME$/.IdeaIC2017.2/system/python_stubs/495234402" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
     </library>
   </component>
 </application>
