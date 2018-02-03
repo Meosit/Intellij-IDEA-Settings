@@ -50,8 +50,12 @@
           <option name="url" value="https://github.com/thatkow/spring-boot-oauth2-and-ldap.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/postaddictme/instagram-java-scraper.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Projects" />
+    <option name="cloneParentDir" value="C:\Main\Projects" />
   </component>
 </application>
