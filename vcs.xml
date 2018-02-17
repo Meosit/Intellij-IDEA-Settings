@@ -58,8 +58,15 @@
           <option name="url" value="https://github.com/Meosit/SimpleBankApp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Meosit/BankApp.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Main\Projects" />
+    <option name="cloneParentDir" value="D:\Projects\" />
+  </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="MIGRATED" value="true" />
   </component>
 </application>
