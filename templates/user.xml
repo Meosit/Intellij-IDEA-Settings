@@ -23,7 +23,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="kex" value="/**&#10; * $EX_DESCRIPTION$ &#10; *&#10; * @author Mikhail Snitavets&#10; */&#10;open class $CLASS_NAME$ @JvmOverloads constructor(&#10;        message: String? = null,&#10;        cause: Throwable? = null&#10;) : $ANCHESTOR$(message, cause)" description="Kotlin runtime exception declaration" toReformat="false" toShortenFQNames="true">
+  <template name="kex" value="/**&#10; * $EX_DESCRIPTION$&#10; * @author Mikhail Snitavets&#10; */&#10;open class $CLASS_NAME$(&#10;        message: String? = null,&#10;        cause: Throwable? = null&#10;) : $ANCHESTOR$(message, cause) {&#10;    constructor(cause: Throwable?) : this(null, cause)&#10;    constructor(message: String?) : this(message, null)&#10;}" description="Kotlin runtime exception declaration" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="" defaultValue="&quot;MyException&quot;" alwaysStopAt="true" />
     <variable name="ANCHESTOR" expression="" defaultValue="&quot;RuntimeException&quot;" alwaysStopAt="true" />
     <variable name="EX_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
