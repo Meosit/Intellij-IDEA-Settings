@@ -5,6 +5,7 @@
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="deployment" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="markup" type="PLAIN_TEXT" />
       <mapping ext="hql" type="SQL" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
