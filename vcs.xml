@@ -82,6 +82,10 @@
           <option name="url" value="https://gitlab.com/VeronikaTsa/dump.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/Aliaksandr_Zhuk1/TravelAgencyPluginManager.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Projects\BigDataLab" />
