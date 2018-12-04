@@ -2,6 +2,7 @@
   <component name="ExternalResourceManagerImpl">
     <resource url="http://java.sun.com/dtd/web-app_2_3.dtd" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/d664ad10_web-app_2_3.dtd" />
     <resource url="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/8a4ed387_web-app_2_5.xsd" />
+    <resource url="http://maven.apache.org/ASSEMBLY/2.0.0" location="$USER_HOME$/.IdeaIC2018.2/system/extResources/a7faf726_assembly-2.0.0.xsd" />
     <resource url="http://www.w3.org/2001/xml.xsd" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/9b192256_xml.xsd" />
     <resource url="http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" location="$USER_HOME$/.IntelliJIdea2016.3/system/extResources/edd63e24_svg10.dtd" />
     <resource url="log4j.dtd" location="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/xml/log4j.dtd" />
