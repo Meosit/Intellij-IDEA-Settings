@@ -6,5 +6,6 @@
         <added pattern="com.atlassian.jira.rest.client.api.GetCreateIssueMetadataOptions.GetCreateIssueMetadataOptions(expandos,issueTypeNames,issueTypeIds,projectKeys,projectIds)" />
       </blacklist>
     </blacklists>
+    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
   </component>
 </application>
